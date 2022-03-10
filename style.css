@@ -1,0 +1,122 @@
+*,*::after,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+body {
+    display: flex;
+}
+.d-flex {
+    display: flex;
+}
+.container {
+    background-image: url("images/nature.jpg");
+    background-color: #cccccc;
+    /* height: 300px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 40vw;
+    height: 100vh;
+}
+/* font-family: 'Smooch Sans', sans-serif;
+font-family: 'Spartan', sans-serif;
+create account btn color :  #596D48. 
+*/
+.logo-holder {
+    width: 70px;
+}
+.logo-head {
+    font-family: 'Smooch Sans', sans-serif;
+    transform: scale (1,3);
+    text-transform: uppercase;
+    align-self: center;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+    padding-left: 0.7rem; 
+}
+.logo-design {
+    background: #596D48;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    color: white;
+    justify-content: center;
+}
+
+/* main text */
+.main {
+    background-color: rgb(204, 204, 204,0.4);
+    height: 100vh;
+}
+.main-text {
+    padding: 70px 0 3rem 0 ;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 2rem;
+}
+.wrapper p {
+    font-family: 'Spartan', sans-serif;
+    font-weight: bolder;
+}
+.wrapper p + p {
+    margin-top: 1.5rem;
+}
+
+/* form */
+
+.form {
+    display: flex;
+    font-family: 'Spartan', sans-serif;
+    background-color: white;
+    box-shadow: 0 1px 10px 1px;
+}
+label {
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+.form-container {
+    margin: 2rem 2rem;
+}
+.input-container {
+       margin: 2rem 0 0 0;
+       text-transform: uppercase;
+       width: 70%;
+}
+
+input {
+    width: 90%;
+    height: 1.5rem;
+    border: #E5E7EB solid 2px;
+}
+/* input[type="password"]:invalid {
+   border: red solid 1px;
+   outline: none;
+} */
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: 0 1px 5px 1px;
+}
+.btn {
+    padding: 0.8rem 1.7rem;
+    background-color: #596D48;
+    border-radius: 15px;
+    border: none; 
+    color: white;
+    font-size: large;
+}
+.btn-wrapper {
+    font-family: 'Spartan', sans-serif;
+    margin: 2rem 2rem;
+
+}
+.btn-wrapper p {
+    margin-top: 1rem;
+}
